@@ -23,7 +23,7 @@ Framer Motion
 🚀 Getting Started
 1. Clone the Repository
 git clone https://github.com/Haranarayanakarthik/Property-Dashboard.git
-cd Propertysecond
+cd Property-Dashboard
 
 2. Install Dependencies
 npm install
