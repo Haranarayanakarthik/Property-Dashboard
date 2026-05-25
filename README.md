@@ -1,64 +1,48 @@
-# UPYOG Property Tax Analytics Dashboard
+UPYOG Property Tax Analytics Dashboard
 
-A premium, interactive, and high-fidelity Property Tax Analytics Dashboard built for the **UPYOG** multi-tenant platform. The application provides data aggregates, comparisons, search/filter registries, and a conversational AI Copilot (assistant) for 1,000 property tax records across 10 Indian cities.
+A premium AI-powered Property Tax Analytics Dashboard built for the UPYOG multi-tenant platform.
+The application provides interactive analytics, property search and filtering, tax collection insights, and an AI Copilot for conversational data exploration across 1,000 property records from 10 Indian cities.
 
----
+✨ Features
+Modern dark glassmorphism UI
+Interactive analytics and KPI cards
+Dynamic charts and visual insights
+Property registry with advanced search & filters
+AI Copilot powered by Google Gemini
+Responsive desktop-first experience
+Smooth animations and micro-interactions
 
-## 🚀 Live Demo & Visual Highlights
+🖥️ Tech Stack
+React + Vite
+Tailwind CSS
+Recharts
+Google Gemini API
+Framer Motion
 
-- **Harmonious Dark Theme**: Sleek background gradients, glow effects, and modern fonts (`Plus Jakarta Sans` and `Outfit`).
-- **Glassmorphic Panels**: Blurred transparent containers that provide a modern desktop feel.
-- **Dynamic Micro-animations**: Micro scale-up effects on buttons/cards, animated typing loaders, and celebration confetti on data milestones.
 
----
-
-
-## 🛠️ Installation & Setup
-
-Ensure you have [Node.js](https://nodejs.org/) installed (v18+ recommended).
-
-### 1. Clone & Navigate
-```bash
-git clone <repository-url>
+🚀 Getting Started
+1. Clone the Repository
+git clone https://github.com/Haranarayanakarthik/Property-Dashboard.git
 cd Propertysecond
-```
 
-### 2. Install Dependencies
-```bash
+2. Install Dependencies
 npm install
-```
 
-### 3. Configure Gemini AI API Key
-We support two methods for testing:
+3. Configure Environment Variables
+Create a .env file in the root directory:
+VITE_GEMINI_API_KEY=your_api_key
 
-#### Method A: Env Configuration (Recommended)
-1. Copy `.env.example` to a new file named `.env` in the project root:
-   ```bash
-   cp .env.example .env
-   ```
-2. Open `.env` and paste your Google Gemini API key:
-   ```env
-   VITE_GEMINI_API_KEY=AIzaSy...
-   ```
+Get your API key from
+Google AI Studio
 
-#### Method B: Interactive UI Entry
-If you do not configure a `.env` file, the UPYOG AI Copilot will display an elegant dialog overlay asking for your API Key. Simply paste it there, and the dashboard will save it to local storage.
-
-> 💡 **Get a free API key** in seconds at [Google AI Studio](https://aistudio.google.com/).
-
-### 4. Start the Application
-```bash
+▶️ Run the Project
 npm run dev
-```
-Open [http://localhost:5173](http://localhost:5173) in your browser.
+Open:
+http://localhost:5173
 
-### 5. Build for Production
-To bundle the project for production distribution:
-```bash
+📦 Production Build
 npm run build
-```
 
----
 
 ## 📂 Project Architecture
 
@@ -86,3 +70,21 @@ Propertysecond/
 │       ├── PropertyTable.jsx # Explorer data table
 │       └── AiChatbot.jsx     # AI assistant chat interface
 ```
+
+
+🤖 AI Copilot
+
+The dashboard includes an integrated AI Copilot powered by Google Gemini that can:
+
+Summarize tax analytics
+Compare city performance
+Answer dataset-related questions
+Generate intelligent insights from property records
+
+
+📸 Dashboard Highlights
+Glassmorphic analytics panels
+Animated KPI metrics
+Interactive charts
+AI-powered chat interface
+Elegant dark UI with modern gradients
